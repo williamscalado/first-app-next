@@ -1,10 +1,7 @@
 
-import Docuemnt, { Html, Head, NextScript, Main } from 'next/document'
-
-
-export default class MyDocument extends Docuemnt {
-
-    render() {
+import { Html, Head, NextScript, Main } from 'next/document'
+export default function  MyDocument (){
+  
         return (
 
             <Html>
@@ -22,4 +19,3 @@ export default class MyDocument extends Docuemnt {
         )
     }
 
-}
